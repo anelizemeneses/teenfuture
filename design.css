@@ -56,6 +56,18 @@ header.hide {
   color: #e5ff00;
 }
 
+.TF h2 {
+padding-top:5;
+padding-bottom:10;
+margin: 0 20%;
+padding: 10px 0;
+color: #8b0000;
+text-align: center;
+margin: 30px;
+font-size: 4rem;
+}
+
+
 h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
@@ -128,7 +140,7 @@ main {
   );
 }
 
-/*Equipes*/
+/**/
 .eqp {
   font-family: long island;
   position: absolute;
