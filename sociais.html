@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teen Future</title>
+        <link rel="stylesheet" href="teste.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"/>
+      <script src="tfmain.js"></script>
+      <header id="header">
+            <div class="avatar">
+                <a href="tfindex.html">
+                  <img src="imagens/teenfuturelogo.png" alt="Logo Teen Future" id="logo" />
+                </a>
+              </div>
+              
+            <div class="NomeEslogan">
+              <h1 id="tf">Teen Future</h1>
+              <p>Construindo um futuro de sucesso através do aprendizado de hoje!</p>
+            </div>
+          </div>
+        </div>
+        <select>
+          <option value="#">Menu</option>
+          <option value="sociais.html">Redes Sociais</option>
+          <option value="eqps.html">Nossas
+            Equipes
+          </option>
+          <option value="PROINT.html">Projeto Integrador I
+          </option>
+        </select>
+        <script>
+          // código para esconder o cabeçalho quando a página é rolada
+          var prevScrollpos = window.pageYOffset
+          window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset
+            if (prevScrollpos > currentScrollPos) {
+              document.getElementById('header').style.top = '0'
+            } else {
+              document.getElementById('header').style.top = '-50px'
+            }
+            prevScrollpos = currentScrollPos
+          }
+        </script>
+      </header>
+  </head>
+  <body>
+
+    <main>
+    <body>
+    <div class="MidiasSociais">
+        <img src="imagens/conection.png" class="img-fluid" alt="Imagem Referencia"/>
+        <h4>Nossas redes sociais</h4>
+    </div>
+    <div class="RedesSociais">
+      <div class="rede">
+        <a href="https://www.instagram.com/teenfuture44/">
+        <img src="imagens/logoinsta.png" class="img-fluid" alt="Logo do instagram" />
+        <h3>Instagram</h3>
+        </a>
+      </div>
+      <div class="rede">
+        <a href="https://www.tiktok.com/@teenfuture44?is_from_webapp=1&sender_device=pc">
+        <img src="imagens/logotiktok.png" class="img-fluid" alt="Logo do TikTok"/>
+        <h3>TikTok</h3>
+      </a>
+      </div>
+      <div class="rede">
+        <a href="https://pin.it/5Gjn2CY">
+        <img src="imagens/logopintereset.png"  class="img-fluid" alt="Logo do Pinterest" />
+        <h3>Pinterest</h3>
+        </a>
+      </div>
+      <div class="rede">
+        <a href="https://www.youtube.com/channel/UCIBmt9Un5GfhdIwZ6-PsGBw">
+        <img src="imagens/logoyoutube.png"  class="img-fluid" alt="Logo do YouTube" />
+        <h3>YouTube</h3>
+        </a>
+      </div>
+    </div>
+    </main>
+    <footer>
+      <p>Desenvolvido por TEEN FUTURE © 2023</p>
+    </footer>
+
+    <script>
+      const selectMenu = document.querySelector('header select')
+      selectMenu.onchange = function () {
+        const selectedValue = selectMenu.value
+        if (selectedValue) {
+          window.location.href = selectedValue
+        }
+      }
+    </script>
+  </body>
+</html>
