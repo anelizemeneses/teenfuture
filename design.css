@@ -9,7 +9,7 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: #787878;
+  background-color: #1d0238;
   color: #ffffff;
   padding: 5px;
   font-size: 2rem;
@@ -53,7 +53,7 @@ header.hide {
 .NomeEslogan p {
   font-size: 1rem;
   margin: 0;
-  color: #000000;
+  color: #454a4a;
 }
 
 .TF h2 {
@@ -61,7 +61,7 @@ padding-top:5;
 padding-bottom:10;
 margin: 0 20%;
 padding: 10px 0;
-color: #8b0000;
+color: #ffffff;
 text-align: center;
 margin: 30px;
 font-size: 4rem;
@@ -118,8 +118,8 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #000000;
-    background-color: #cecece;
+    color: #ffffff;
+    background-color: #2f2541;
     padding-top: 120px; 
   }
 
@@ -154,7 +154,7 @@ main {
   font-family: "Bookman Old Style";
   font-size: 1.2rem;
   text-align: justify;
-  color: #000000;
+  color: #dedede;
   word-wrap: break-word;
   margin: 30px;
 }
@@ -162,7 +162,7 @@ main {
 .eqp h2 {
   margin: 0 20%;
   padding: 8px 0;
-  color: #8b0000;
+  color: #ffffff;
   text-align: center;
   margin: 30px;
   font-size: 6rem;
@@ -190,7 +190,7 @@ select {
   float: right;
   font-size: 16px;
   color: #ffffff;
-  background-color: #4d5353;
+  background-color: #454a4a;
   border-radius: 7px;
   padding: 7px;
   border: none;
@@ -208,7 +208,7 @@ select:hover {
 
 select:focus {
   outline: none;
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 5px rgba(255, 0, 0, 0.5);
 }
 
 /*Redes Sociais*/
@@ -235,7 +235,7 @@ select:focus {
   margin-top: 20px;
   margin: 0 10%;
   padding: 50px 0;
-  color: #8b0000;
+  color: #ffffff;
   text-align: center;
   margin: 20px;
   font-size: 4rem;
@@ -285,79 +285,32 @@ select:focus {
 }
 
 /*Proint(projeto integrador*/
-.PIN {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  max-width: 1200px;
+.content {
+  max-width: 800px;
   margin: 0 auto;
+  text-align: justify;
 }
 
-.PIN h2 {
-  font-size: 5rem;
-  color: #000000;
-  margin: 0;
-  flex-grow: 2;
+h2 {
+  margin-bottom: 20px;
 }
 
-
-.PIN p {
-  flex-grow: 2;
-}
-
-.conteudo-projeto {
-    display: flex;
-    align-items: flex-start;
-    max-width: 1000px; 
-    margin: 0 auto;
-    padding: 50px;
-}
-
-.balao {
-  flex: 1;
-  align-items: center;
-  background-color: #8fc1c2;
-  border: 2px solid #021f3f;
-  margin-left: auto;
-  border-radius: 40px;
-  padding: 15px;
-  max-width: 100%;
-  font-size: 20px;
-}
-
-.balao::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: -12px;
-  border-width: 8px;
-  border-style: solid;
-  border-color: transparent transparent #ffffff transparent;
-}
-
-.projetofoto {
-  max-width: 50%; 
-  margin-left: 20px;
+p {
+  margin-bottom: 20px;
 }
 
 .projeto2-imagem {
-  display: flex;
-  max-width: 30%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center; 
-  height: 50%; 
-  margin-right: 30px;
-}
-
-/*rodapé*/
-.espaco-footer {
-  height: 100px; 
+  display: block;
+  margin: 0 auto; /* Centraliza a imagem */
+  width: auto; /* Ajuste conforme necessário */
+  height: auto;
+  margin-top: 20px; /* Espaçamento acima da imagem */
+  clear: bot
 }
 
 
 footer {
-  background-color: #787878;
+  background-color: #1d0238;
   color: #ffffff;
   text-align: center;
   padding: 10px;
@@ -372,4 +325,3 @@ footer {
 footer p {
   margin: 0;
 }
-
