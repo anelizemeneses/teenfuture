@@ -301,10 +301,10 @@ p {
 
 .projeto2-imagem {
   display: block;
-  margin: 0 auto; /* Centraliza a imagem */
-  width: auto; /* Ajuste conforme necessário */
+  margin: 0 auto; 
+  width: auto; 
   height: auto;
-  margin-top: 20px; /* Espaçamento acima da imagem */
+  margin-top: 20px; 
   clear: bot
 }
 
