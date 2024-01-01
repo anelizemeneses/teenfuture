@@ -9,8 +9,8 @@ header {
   position: fixed;
   left: 0;
   right: 0;
-  background-color: #1d0238;
-  color: #ffffff;
+  background-color: #4842b9;
+  color: #e7d9d9;
   padding: 5px;
   font-size: 2rem;
   z-index: 999;
@@ -53,7 +53,7 @@ header.hide {
 .NomeEslogan p {
   font-size: 1rem;
   margin: 0;
-  color: #454a4a;
+  color: #d8dee6;
 }
 
 .TF h2 {
@@ -61,7 +61,7 @@ padding-top:5;
 padding-bottom:10;
 margin: 0 20%;
 padding: 10px 0;
-color: #ffffff;
+color: #000000;
 text-align: center;
 margin: 30px;
 font-size: 4rem;
@@ -118,8 +118,8 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #ffffff;
-    background-color: #2f2541;
+    color: hwb(0 0% 100%);
+    background-color: #c3c9df;
     padding-top: 120px; 
   }
 
@@ -154,7 +154,7 @@ main {
   font-family: "Bookman Old Style";
   font-size: 1.2rem;
   text-align: justify;
-  color: #dedede;
+  color: #000000;
   word-wrap: break-word;
   margin: 30px;
 }
@@ -162,7 +162,7 @@ main {
 .eqp h2 {
   margin: 0 20%;
   padding: 8px 0;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   margin: 30px;
   font-size: 6rem;
@@ -217,8 +217,8 @@ select:focus {
   top: 90%;
   right: 500px;
   transform: translateY(-50%);
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   border-radius: 60%;
   margin-right: 9px;
   font-size: 5rem;
@@ -235,7 +235,7 @@ select:focus {
   margin-top: 20px;
   margin: 0 10%;
   padding: 50px 0;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   margin: 20px;
   font-size: 4rem;
@@ -301,17 +301,17 @@ p {
 
 .projeto2-imagem {
   display: block;
-  margin: 0 auto; 
-  width: auto; 
+  margin: 0 auto; /* Centraliza a imagem */
+  width: auto; /* Ajuste conforme necessário */
   height: auto;
-  margin-top: 20px; 
+  margin-top: 20px; /* Espaçamento acima da imagem */
   clear: bot
 }
 
 
 footer {
-  background-color: #1d0238;
-  color: #ffffff;
+  background-color: #4842b9;
+  color: #e6dbdb;
   text-align: center;
   padding: 10px;
   font-size: 1rem;
